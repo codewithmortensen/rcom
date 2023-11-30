@@ -1,7 +1,13 @@
 'use client';
 
+import Link from 'next/link';
+
 const HomePage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Link href='/employees'>Employees</Link>
+    </div>
+  );
 };
 
 export default HomePage;
